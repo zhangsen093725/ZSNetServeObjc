@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.1.0)
+  - ZSNetServe (0.1.3):
+    - Alamofire
+  - ZSNetServeObjc (0.0.2):
+    - ZSNetServe
+
+DEPENDENCIES:
+  - ZSNetServeObjc (from `../`)
+
+SPEC REPOS:
+  https://gitee.com/zhangsen093725/sssu-repo-spec.git:
+    - ZSNetServe
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  ZSNetServeObjc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  ZSNetServe: ac7a16c20bba55216366522aa088a444c42ac77c
+  ZSNetServeObjc: 13b9b98e901e527d839329fe6bf64ed77bbd4cc3
+
+PODFILE CHECKSUM: c1e20b7d0d53017bd677a18086d3a58f85e36026
+
+COCOAPODS: 1.9.0

@@ -1,0 +1,14 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'https://gitee.com/zhangsen093725/sssu-repo-spec.git'
+
+use_frameworks!
+
+target 'ZSNetServeObjc_Example' do
+  pod 'ZSNetServeObjc', :path => '../'
+
+  target 'ZSNetServeObjc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
